@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      username: admin
+      password: admin123
+      host: mongo_db  # Docker ağındaki MongoDB servisinin adı
+      port: 27017
+      database: yourdatabase
+      authentication-database: admin
+      uri: mongodb://admin:admin123@52.17.227.63/test?authSource=admin
+
+server:
+  port: 8080
